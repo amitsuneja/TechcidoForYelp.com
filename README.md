@@ -5,6 +5,8 @@ Resource 'corpora/wordnet' not found
 
 # Solution
 So, supposing my python application is in a directory called "myapp/"
+
+
 Step 1: Create the directory
 
 
