@@ -27,4 +27,5 @@ This'll pop up the nltk downloader. Set your Download Directory to whatever_the_
 
 Step3: Let nltk Know Where to Look
 
-ntlk looks for data,resources,etc. in the locations specified in the nltk.data.path variable. All you need to do is add nltk.data.path.append('./nltk_data/') to the python file actually using nltk, and it will look for corpora, tokenizers, and such in there in addition to the default paths.
+ntlk looks for data,resources,etc. in the locations specified in the nltk.data.path variable. All you need to do is add
+import nltk and then nltk.data.path.append('./nltk_data/') to the python file actually using nltk, and it will look for corpora, tokenizers, and such in there in addition to the default paths.
